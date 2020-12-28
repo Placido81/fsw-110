@@ -1,6 +1,3 @@
 
-var h = document.createElement("H1");
-var t = document.createTextNode("How You Doing?");
-h.appendChild(t);
+var hello = document.getElementById("hello").textContent = "hello sir from javascript"
 
-document.body.appendChild(h);
