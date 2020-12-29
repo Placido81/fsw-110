@@ -15,7 +15,8 @@ body.append(p)
 
 
 
-
+var ol = document.createElement("ol")
+document.body.append(ol)
 
 var li = document.createElement("li")
 li.textContent = "Love Learning"
