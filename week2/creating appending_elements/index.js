@@ -9,7 +9,7 @@ document.body.append(h1)
 
 var p = document.createElement("p")
 p.textContent = "All of this was created with Javascript"
-body.append(p)
+document.body.append(p)
 
 
 
@@ -28,11 +28,11 @@ ol.append(li)
 
 var li = document.createElement("li")
 li.textContent = "Learn To Code"
-document.body.append(li)
+ol.append(li)
 
 var li = document.createElement("li")
 li.textContent = "Coding Can Be Tricky"
-document.body.append(li)
+ol.append(li)
 
 
 
