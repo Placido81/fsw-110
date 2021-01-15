@@ -12,7 +12,7 @@ for (var i = 0; i < 10; i++)
     var h1 = document.createElement("h1")
     h1.textContent = "Hello World"
     document.body.append(h1)
-    console.log("hello world")  
+     
     
 }
 document.body.style.color = "red";
