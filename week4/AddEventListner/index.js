@@ -2,8 +2,6 @@
 var h1 = document.createElement("h1")
 h1.textContent = "DJ.JS"
 document.body.append(h1)
-// Button ("Click Me"):
-var button = document.getElementById("button");
 
 // Square with diffrent Functions:
 var square1 = document.getElementById("square1")
