@@ -11,8 +11,14 @@ square1.style.width = "300px"
 square1.addEventListener("mouseover", function(){
 square1.style.backgroundColor ="blue";
 })
+function myFunction(){
+    alert("press any key to change color.")
+
 square1.addEventListener("mouseout", function(){
     square1.style.backgroundColor = "red";
+    
+    
+  
 })
 square1.addEventListener("mouseup", function(){
     square1.style.backgroundColor = "yellow";
@@ -23,4 +29,4 @@ square1.addEventListener("mousedown", function(){
 square1.addEventListener("mousewheel", function(){
    square1.style.backgroundColor = "orange";
 })
-
+}
