@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit_Events1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <div id="container">
+    <form name="userInfo">
+    <label for="fname">FirstName:</label>
+    <input name="fname" id="fname" />
+    
+    <br>
+    <label for="lname">LastName:</label>
+    <input name="lname" id="lname" />
+
+    <br> 
+    <label for="age">Age:</label>
+    <input number="age" id="age" />
+     
+     <br>
+     <label for="Gender">Gender:</label>
+     Male<input type="radio" id= "gender"  name="male" value="male"/>
+     
+     Female<input type="radio" id= "gender"  name="female"value="female"/>
+     <br>
+     
+     <label for="location">Location:</label>
+     <input type="text" id="state" name="cities" />
+     
+     <select name="city" >
+      <option value="Paris">Paris</option>
+      <option value="new york">New York</option>
+      <option value="chicago">Chicago</option>
+  </select>
+     <br>
+     
+     
+    
+     Dietary Restrictions:
+     Kosher<input type="checkbox"value="kosher"id="k" name="allergies" /> 
+     
+     Peanuts/Nutts<input type="checkbox"value="peanuts"id="nut" name="allergies" />
+    
+     Dairy Prod. <input type="checkbox" value="no dairy"id="dairy"  name="allergies" />
+    
+     
+     <br>   
+  
+     <button id = "button" name="submit">submit</button>
+  
+</form>
+</div>
+    <script src = "index.js"></script>
+</body>
+</html>
