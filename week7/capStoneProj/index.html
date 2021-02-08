@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Info Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+        
+            <form onsubmit="return ValidationEvent()">
+        
+                <h2>My Daily To Do List</h2>
+        
+        <label>Names Of Events:</label>
+        <input id="name" name="name" type="text" required>
+        
+        <label>Daily To Do List!:</label>
+        <input id="list" name="list"  type="text" required>
+        
+        <label>DayTime:</label>
+        <input id="day" name="time" type="radio" value="DayTime" required>
+        
+        <label>NightTime</label>
+        <input id="night" name="time" type="radio" value="NightTime" required>
+        
+        
+    
+        
+        <input id="contact" name="contact" placeholder="Contact No.#" type="text" required>
+        <input type="submit" value="Submit">
+        
+        </form>
+        </div>
+        </div>
+        </body>
+        </html>
+    <script src="index.js"></script>
+</body>
+</html>
